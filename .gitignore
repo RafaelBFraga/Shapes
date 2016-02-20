@@ -1,0 +1,10 @@
+#Ignore Intelij
+
+
+.gradle/
+.idea/
+*.iml
+build/
+gradlew
+gradlew.bat
+
