@@ -6,6 +6,6 @@ public class Main {
         Triangle triangle = new Triangle();
         System.out.println(triangle.drawRightTriangle(3));
         Diamond diamond = new Diamond();
-        System.out.println(diamond.drawDiamondwithName(3));
+        System.out.println(diamond.drawDiamondwithName(3,"BOB"));
     }
 }

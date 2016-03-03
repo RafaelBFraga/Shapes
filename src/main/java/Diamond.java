@@ -47,7 +47,7 @@ public class Diamond {
 
         diamond = drawIsoceles(n);
 
-        for (int i = n-1; i >= 0; i--) {
+        for (int i = n-1; i > 0; i--) {
             diamond += putWhiteSpace(space) + drawLine(i) + "\n";
             space++;
         }
@@ -55,11 +55,11 @@ public class Diamond {
         return diamond;
     }
 
-    public String drawDiamondwithName(int n){
+    public String drawDiamondwithName(int n,String name){
 
         String diamond = drawDiamond(n);
         String middleLine = drawLine(n);
-        diamond = diamond.replace(middleLine,"BOB");
+        diamond = diamond.replace(middleLine,name);
         return diamond;
     }
 
